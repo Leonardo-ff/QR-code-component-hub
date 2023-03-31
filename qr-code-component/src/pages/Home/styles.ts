@@ -13,13 +13,13 @@ export const HomeContainer = styled.div`
 export const QrCodeBox = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
+  justify-content: flex-start;
   
   padding: 18px;
 
   width: 320px;
-  height: 500px;
+  height: 32rem;
 
   border-radius: 5%;
 
@@ -27,24 +27,24 @@ export const QrCodeBox = styled.div`
 
 
   img {
-
-    width: 290px;
-    height: 290px;
+    display: block;
+    width: 100%;
+    height: 18rem;
     border-radius: 5%;
   }
 
   div {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 10px 16px;
 
-    /* background-color: red; */
-
-    padding: 0 16px;
-
-    justify-content: space-between;    
     gap: 20px;
 
     h2 {
+      font-size: 22px;
       text-align: center;
       font-weight: 700;
       color: ${props => props.theme['dark-blue']};
