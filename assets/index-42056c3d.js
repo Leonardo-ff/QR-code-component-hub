@@ -110,7 +110,7 @@ Error generating stack: `+o.message+`
   }
 
 
-`,Lm="/assets/image-qr-code-c38c08d5.png";function Am(){return Lt(Rm,{children:ii(Om,{children:[Lt("img",{src:Lm,alt:"qr code"}),ii("div",{children:[Lt("h2",{children:"Improve your front-end skills py building projects"}),Lt("span",{children:"Scan the QR code to visit Frontend Mentor and take your coding skills to the next level"})]})]})})}const Im=Tm`
+`,Lm="/QR-code-component-hub/assets/image-qr-code-c38c08d5.png";function Am(){return Lt(Rm,{children:ii(Om,{children:[Lt("img",{src:Lm,alt:"qr code"}),ii("div",{children:[Lt("h2",{children:"Improve your front-end skills py building projects"}),Lt("span",{children:"Scan the QR code to visit Frontend Mentor and take your coding skills to the next level"})]})]})})}const Im=Tm`
   * {
     margin: 0;
     padding: 0;
